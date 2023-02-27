@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ultradrops",
+  "info": {
+    "singularName": "ultradrop",
+    "pluralName": "ultradrops",
+    "displayName": "Ultradrop",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ME": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
